@@ -213,6 +213,18 @@ a:focus {
   margin-top: 34px;
   text-transform: uppercase;
 }
+#home .small-btn {
+  background: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  top: 3vmin;
+  right: 3vmin;
+  position: absolute;
+  text-transform: uppercase;
+}
 #home .btn:hover,
 #home .btn:focus {
   color: #c21500;
@@ -401,8 +413,6 @@ a:focus {
   left: 3%;
 }
 
-
-
 /* Team section */
 #team h3 {
   padding-bottom: 0px;
@@ -526,6 +536,16 @@ a:focus {
   line-height: 60px;
   text-align: center;
   vertical-align: middle;
+}
+
+#gallery .refreshObject {
+  background: transparent;
+  border: 3px solid #666666;
+  color: #666666;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding: 8px 20px;
+  text-transform: uppercase;
 }
 
 /*filter css*/
